@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="./img/logo40.webp" alt="">
+                </div>
+                <div class="cart">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <ion-icon name="cart-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<section id="modal-cart">
+    <div class="cart-box">
+        <div class="cart-container">
+            <div class="added">
+                <ion-icon name="checkbox-outline" onclick="closeCart()"></ion-icon>
+                <p>Item added to your cart</p>
+            </div>
+            <ion-icon class="close-cart" name="close-outline"></ion-icon>
+            <div class="mini-product">
+                <img src="./img/images.jpeg" alt="">
+                <h3>Cap Ebbets Corduroy</h3>
+            </div>
+            <div class="cart-btns">
+                <button class="view-cart-btn">View my cart</button>
+                <button class="checkout-btn">Check out</button>
+            </div>
+            <a href="#">Continue Shopping</a> 
+        </div>
+    </div>
+</section>
+<section id="product">
+    <div class="container">
+        <div class="product">
+            <div class="product-img">
+                <img src="./img/images.jpeg" alt="">
+            </div>
+            <div class="product-title">
+                <div class="name-n-price">
+                    <h1>Cap Ebbets Corduroy</h1>
+                    <p>$99.99 USD</p>
+                </div>
+                <div class="quantity">
+                    <p>Quantity</p>
+                    <div class="input-quantity">
+                        <span class="minus">-</span>
+                        <span class="num">1</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <!-- <input type="number"> -->
+                </div>
+                <div class="btns">
+                    <button class="cart-btn" onclick="openCart()">Add to cart</button>
+                    <button class="buy-btn">Buy it now</button>
+                </div>
+                <p class="product-description">This is a demonstration store. You can purchase products like this from Coursework.
+
+                    Made by the well-respected and renowned athletic garments company Ebbets Field Flannels. Hand-sewn from genuine wool baseball cloth. This cap is built to last a lifetime. <br> <br>
+                    
+                    Made in the USA
+                    Genuine wool broadcloth, white felt "Coursework C" icon  with combined embroidery
+                    Soft visor with green satin under visor
+                    Vintage hair cloth backed buckram crown
+                    Satin taping with cotton sweatband
+                    Black leather strap and black metal press closure</p>
+                    <div class="share">
+                        <ion-icon name="share-outline"></ion-icon>
+                    <a href="#">Share</a>
+                    </div>
+        </div>
+         </div>
+    </div>
+</section>
+
+    <section id="social-media">
+        <div class="container">
+            <div class="social-media">
+                <img src="./img/logo-small copy.avif" alt="">
+                <h2>A brand that strives to inspire and push creative culture forward.</h2>
+                <p>
+                    We approach our work with the mentality that every product made is a learning experience to improve our craft. We are practitioners and purveyors of creative culture and are inspired by its various forms from art, design, fashion, music, film, food, and more.
+                </p>
+                <div class="medias">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+               <div class="bishkek">
+                <p>
+                    2023, Kyrgyzstan Bishkek
+                </p>
+                <hr>
+               </div>
+               <div class="pays">
+                <img src="./img/4_Card_color_horizontal copy.png" alt="">
+               </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<script src="./product-page.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
